@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# Ephemer Gaming
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## 1. Descripción
 
-In the project directory, you can run:
+Ephemer Gaming es un proyecto e-commerce. Creé una tienda en línea de artículos de computación, la misma es capaz de mostrar los productos desde una base de datos, incluyendo sus detalles. El usuario podrá navegar por cada uno de los artículos y realizar compras en la aplicación, la misma se encargará de gestionar una órden única, manipulando los datos del usuario y del pedido, también actualizará el stock de los items a medida que son comprados. Para poder realizar compras, el usuario deberá registrar una cuenta con mail y contraseña, o a través de proveedores como Google o GitHub, una vez logueado, podrá realizar compras con su cuenta y acceder a ellas desde el menú de usuario.
 
-### `npm start`
+<a name="technologies-es"></a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 2. Tecnologías utilizadas
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+| Front-End         |
+| ----------------- |
+| React.JS          |
+| JSX			    |
+| Tailwind 3 CSS    |
+| HeroIcons React   |
+| Headless UI React |
+| Firebase          |
 
-### `npm test`
+| NPM Packages      |
+| ----------------- |
+| SweetAlert2       |
+| Formik            |
+| Yup               |
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[SweetAlert2:](https://sweetalert2.github.io/) Se utilizó ésta dependencia para notificar al usuario de los diferentes eventos de la interfaz, tales como cuando se agrega un producto al carrito, informar de errores, y permitir al usuario cargar sus datos para realizar un pedido.
 
-### `npm run build`
+[Formik:](https://formik.org/) Usé Formik para crear un formulario en React, validar y manipular los datos del mismo de manera sencilla.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[Yup:](https://www.npmjs.com/package/yup) Junto con Formik, Yup ayudó a realizar la validación de los datos ingresados en el formulario.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[HeadlessUI:](https://headlessui.com/) Usé el componente "Menu (Dropdown)" para generar el menú de Categorías mobile y el menú de Usuario.
